@@ -51,7 +51,7 @@ my_lambda_expression(1,2);;
 ```scala
 // Scala / amm
 ((x:Int, y:Int) => x + y)
-res4: (Int, Int) => Int = ammonite.$sess.cmd4$$$$Lambda..... // Adresse où est stockée la fonction dans le Byte code
+res4: (Int, Int) => Int = ammonite.$sess.cmd4$$$$Lambda..... // Adresse, où la fonc est stockée la fonction dans le Byte code
 // Application directement 
 ((x:Int, y:Int) => x + y)(1,2)
 res5: Int = 3
