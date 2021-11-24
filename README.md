@@ -15,7 +15,7 @@ best site clairement : https://learnxinyminutes.com/
 res1 : Int = 3
 ```
 ```node
-// Clojure 
+// Node JS 
 1 + 2
 >
 3
@@ -60,4 +60,24 @@ val f = ((x:Int, y:Int) => x + y)
 ...
 f(1,2)
 ```
+```node
+// Node JS
+// Application directement
+((x, y) => x + y) 
+[Function (anonymous)]
+((x, y) => x + y) (1,2)
+3
 
+// Application après
+let add = ((x,y) => x + y)
+undefined
+add(1,2)
+let add = ((x,y) => x + y)(1,2à)
+undefined
+add
+3
+```
+
+
+
+```
