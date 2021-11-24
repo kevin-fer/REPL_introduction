@@ -23,7 +23,7 @@ res1 : Int = 3
 ```
 ```clojure
 ; Clojure / lein repl 
-(+ 1 2)https://learnxinyminutes.com/
+(+ 1 2)
 3
 ```
 ```python
@@ -72,8 +72,8 @@ f(1,2)
 let add = ((x,y) => x + y)
 undefined
 add(1,2)
-// Truc bizarre
-let add = ((x,y) => x + y)(1,2à)
+// Application directe et appel de add avec valeur résultat retourné directement
+let add = ((x,y) => x + y)(1,2)
 undefined
 add
 3
