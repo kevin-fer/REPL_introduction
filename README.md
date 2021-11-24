@@ -72,12 +72,9 @@ f(1,2)
 let add = ((x,y) => x + y)
 undefined
 add(1,2)
+// Truc bizarre
 let add = ((x,y) => x + y)(1,2à)
 undefined
 add
 3
-```
-
-
-
 ```
