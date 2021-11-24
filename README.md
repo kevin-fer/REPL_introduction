@@ -2,7 +2,7 @@
 
 best site clairement : https://learnxinyminutes.com/
 
-## A. Tester les REPL, évaluer l'expression mathémrique 1+2
+## A. Tester les REPL, évaluer l'expression mathématique 1+2
 
 ```ocaml
 (* "OCAML / utop " *) 
