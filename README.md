@@ -49,7 +49,7 @@ my_lambda_expression(1,2);;
 ```
 
 ```scala
-// Scala / amm
+// Scala / ammhe first is greater, and a negative integer if the first is smaller (see below for a complete specification). For example, co
 ((x:Int, y:Int) => x + y)
 res4: (Int, Int) => Int = ammonite.$sess.cmd4$$$$Lambda..... // Adresse, où la fonc est stockée la fonction dans le Byte code
 // Application directement 
@@ -62,7 +62,7 @@ f(1,2)
 ```
 ```node
 // Node JS
-// Application directement
+// Application directementhe first is greater, and a negative integer if the first is smaller (see below for a complete specification). For example, co
 ((x, y) => x + y) 
 [Function (anonymous)]
 ((x, y) => x + y) (1,2)
@@ -98,6 +98,7 @@ add
 ```ocaml
 (* "OCAML / utop " *) 
 (* "Tableau " *) 
+(* "1- Faut créer le tableau :" *) 
 let tab = Array.create 10 0;;
 
 Alert deprecated: Stdlib.Array.create
@@ -106,5 +107,16 @@ val tab : int array = [|0; 0; 0; 0; 0; 0; 0; 0; 0; 0|]
 (* " Pour accéder à la valeur de la case 0 "*)
 tab.(0);;
 - : int = 0
+(* "2- On déclare la fonction f:" *) 
+let f = fun (x) -> x + 1;;
+
+(* "3 - On utilise map pour appliquer la fonction à cha- : int array = [|1; 1; 1; 1; 1; 1; 1; 1; 1; 1|]
+que élément du tableau tab:" *) 
+Array.map f tab;;
+- : int array = [|1; 1; 1; 1; 1; 1; 1; 1; 1; 1|]
+
+(* "4 - Sans déclarer la fonction au préalable"*)
+Array.map (fun (x) -> x + 5) tab;;
+- : int array = [|5; 5; 5; 5; 5; 5; 5; 5; 5; 5|]
 
 ```
