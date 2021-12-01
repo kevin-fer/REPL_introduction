@@ -1,7 +1,7 @@
 # REPL_introduction
 TP dans le cadre du cours de Ph. D Pierre Boudes (LIPN) https://gitlab.sorbonne-paris-nord.fr/boudes/cours-fondementsprog-m1
-best site clairement : https://learnxinyminutes.com/
-
+Site pour apprendre un langage X en Y minutes : https://learnxinyminutes.com/
+Reminder OCAML sympa : http://philippe.skler.free.fr/commandesocaml.pdf
 ## A. Tester les REPL, évaluer l'expression mathématique 1+2
 
 ```ocaml
@@ -80,7 +80,7 @@ add
 ```
 ```clojure
 ; Clojure / lein repl (comme LISP)
-; Application directe
+; Application directeUse Array.make instead.
 ((fn [x, y] (+ x y)) 1 2)
 3
 ```
@@ -93,4 +93,18 @@ add
 ```
 
 ## C. Map en C, créer en C une fonction map qui prend en entrée un pointeur de fonction in(*f)(int) 
+## D. Map dans les REPL
 
+```ocaml
+(* "OCAML / utop " *) 
+(* "Tableau " *) 
+let tab = Array.create 10 0;;
+
+Alert deprecated: Stdlib.Array.create
+Use Array.make instead.
+val tab : int array = [|0; 0; 0; 0; 0; 0; 0; 0; 0; 0|]
+(* " Pour accéder à la valeur de la case 0 "*)
+tab.(0);;
+- : int = 0
+
+```
