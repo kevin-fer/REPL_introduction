@@ -91,3 +91,6 @@ add
 3
 >>>
 ```
+
+## C. Map en C, créer en C une fonction map qui prend en entrée un pointeur de fonction in(*f)(int) 
+
