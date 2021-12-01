@@ -129,7 +129,6 @@ tab: Array[Int] = Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 
 
 ```
-
 ```scala
 // Scala / amm
 // Tableau 
@@ -139,4 +138,16 @@ tab: Array[Int] = Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 tab.map(((x:Int) => x + 5)) 
 res1: Array[Int] = Array(5, 5, 5, 5, 5, 5, 5, 5, 5, 5)
 
+// Liste 
+var list = List(0,0,0,0,0) 
+list: List[Int] = List(0, 0, 0, 0, 0)
+
+list.map(((x:Int) => x + 5))  
+res3: List[Int] = List(5, 5, 5, 5, 5)
+
+```
+```node
+// Node JS 
+// Tableau
+let tab = [0, 0, 0, 0, 0];
 ```
