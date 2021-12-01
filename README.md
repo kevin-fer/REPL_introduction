@@ -119,4 +119,9 @@ Array.map f tab;;
 Array.map (fun (x) -> x + 5) tab;;
 - : int array = [|5; 5; 5; 5; 5; 5; 5; 5; 5; 5|]
 
+(* "Liste " *) 
+List.map (fun x -> x + 1) [1; 2; 3; 4;];; 
+- : int list = [2; 3; 4; 5]
+
 ```
+
