@@ -1,5 +1,5 @@
 # REPL_introduction
-
+TP dans le cadre du cours de Ph. D Pierre Boudes (LIPN) https://gitlab.sorbonne-paris-nord.fr/boudes/cours-fondementsprog-m1
 best site clairement : https://learnxinyminutes.com/
 
 ## A. Tester les REPL, évaluer l'expression mathématique 1+2
