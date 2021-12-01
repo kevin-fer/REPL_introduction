@@ -62,7 +62,7 @@ f(1,2)
 ```
 ```node
 // Node JS
-// Application directementhe first is greater, and a negative integer if the first is smaller (see below for a complete specification). For example, co
+// Application directement
 ((x, y) => x + y) 
 [Function (anonymous)]
 ((x, y) => x + y) (1,2)
@@ -93,7 +93,9 @@ add
 ```
 
 ## C. Map en C, créer en C une fonction map qui prend en entrée un pointeur de fonction in(*f)(int) 
-## D. Map dans les REPL
+## D. Map dans les REPL@ var tab:Array[Int] = new Array[Int](10) 
+
+
 
 ```ocaml
 (* "OCAML / utop " *) 
@@ -122,6 +124,19 @@ Array.map (fun (x) -> x + 5) tab;;
 (* "Liste " *) 
 List.map (fun x -> x + 1) [1; 2; 3; 4;];; 
 - : int list = [2; 3; 4; 5]
+@ var tab:Array[Int] = new Array[Int](10) 
+tab: Array[Int] = Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
 
 ```
 
+```scala
+// Scala / amm
+// Tableau 
+var tab:Array[Int] = new Array[Int](10) 
+tab: Array[Int] = Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+
+tab.map(((x:Int) => x + 5)) 
+res1: Array[Int] = Array(5, 5, 5, 5, 5, 5, 5, 5, 5, 5)
+
+```
