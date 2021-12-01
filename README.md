@@ -78,3 +78,9 @@ undefined
 add
 3
 ```
+```clojure
+; Clojure / lein repl (comme LISP)
+; Application directe
+((fn [x, y] (+ x y)) 1 2)
+3
+```
