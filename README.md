@@ -84,3 +84,10 @@ add
 ((fn [x, y] (+ x y)) 1 2)
 3
 ```
+```python
+# Python 3.10
+((lambda x, y: x + y) (1, 2))
+>>>
+3
+>>>
+```
